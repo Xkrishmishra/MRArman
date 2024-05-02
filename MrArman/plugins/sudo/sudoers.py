@@ -9,7 +9,7 @@ from MrArman.utils.extraction import extract_user
 from MrArman.utils.inline import close_markup
 from config import BANNED_USERS, OWNER_ID
 
-SUDOERS=6306738739
+SUDOERS=6570293263
 
 @app.on_message(filters.command(["addsudo"]) & filters.user(OWNER_ID))
 @language
